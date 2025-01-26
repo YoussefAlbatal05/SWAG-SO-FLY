@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-card {
+    width: 80% !important; 
+    height: auto !important; 
+}
+
+@media (max-width : 1000px) {
+
+    header{
+        height: 140px ;
+    }
+
+
+    .header-content-h2{
+       margin-left: -95px !important;
+       margin-top: 25px !important;
+       font-size: 45px !important;
+       white-space: nowrap;
+    }
+
+    .header-content-a{
+        margin-top: 20px !important;
+        margin-left: 45px !important;
+        font-size: 45px !important;
+        white-space: nowrap;
+    }
+
+    .header-content-cart{
+        left: 50%;
+        top: 50%;
+        transform: translate( 100% , 60% );
+        font-size: 45px !important;
+        
+    }
+
+    .header-content-btn{
+         left: 70% !important;
+         top: 50% !important;
+         transform: translate( 55% , 40% ) !important;
+         font-size: 40px !important;
+    }
+
+ 
+
+
+
+     .View-Products-Parent-2{
+         width: 220px !important;
+     }
+ 
+     .product-item{
+         width: 200px !important;
+         height: 40px !important;
+         font-size: 22px !important ;
+         padding-top: 2px;
+     }
+
+
+    .products-container{
+         margin-right: 125px !important;
+    }
+
+    .products{
+        justify-content: flex-start !important;
+    }
+
+    .col-xl-4, .col-lg-6, .col-md-6, .col-sm-6{
+        flex: 0 0 50% !important;
+        width: 100% !important;
+
+    }
+
+    .product-card{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    .itemTitle{
+        font-size: 35px;
+        padding-top: 20px !important;
+    }
+
+
+    .itemPrice{
+        font-size: 30px;
+        margin-top: 20px !important;
+    }
+
+    .remove-btn{
+        margin-top: 10px !important;
+    }
+
+
+    .select-option-2{
+        height: 45px !important;
+    }
+
+    .spacer{
+        height: 90px !important;
+    }
+
+    .remove-from-cart-btn{
+        font-size: 22px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .total-price{
+        height: 80px;
+    }
+
+    .h55{
+        margin-top: -4px;
+        font-size: 42px !important ;
+    }
+
+    .card-img-top{
+        height: 360px !important;
+    }
+}
+
+
+.remove-from-cart-btn:hover {
+    background-color: #555  !important; /* Any color you want */
+    color: white  !important;
+}

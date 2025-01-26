@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+@media (max-width: 1000px) {
+    body {
+        height: 100vh; 
+        overflow: hidden; 
+    }
+
+    .login-container {
+        height: 100%; 
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .sign-background-color {
+        width: 90%; 
+        max-width: 800px; 
+        height: auto; 
+        padding: 20px; 
+        margin: auto; 
+        overflow: hidden; 
+    }
+
+    .login-user-h2 {
+        font-size: 40px; 
+        margin-bottom: 20px;
+        text-align: center; 
+    }
+
+    .sign-in-form label {
+        font-size: 24px; 
+    }
+
+    .sign-in-form .form-control {
+        padding: 10px;
+        font-size: 20px; 
+    }
+
+    .sign-in-btn {
+        font-size: 25px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .login-p-create {
+        font-size: 27px !important; 
+        text-align: center;
+    }
+}

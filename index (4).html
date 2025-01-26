@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+   <link rel="stylesheet" href="css/stylesheet.css">
+   <link rel="stylesheet" href="css/all.css">
+   <link rel="stylesheet" href="css/cartProducts.css">
+   <title>Cart</title>
+</head>
+<body>
+  
+  <header> <!-- header of the website -->
+    <div class="container">
+        <div class="d-flex justify-content-between pt-3">   
+            <h2 class="mx-2 header-content header-content-h2" style=" font-size: 35px; margin-top: -5px; color: #e6e6e6;">Online Shopping</h2>
+            <div>
+            <a href="index (2).html" target="_self"><button type="button" class="btn btn-dark mx-2 login-btn header-content" style="margin-left: auto; color: #e6e6e6;">Login</button></a> 
+            <a href="index (3).html" target="_self"><button type="button" class="btn btn-dark mx-2 register-btn header-content" style="margin-left: auto; color: #e6e6e6;">Register</button></a> 
+            <a href="#" target="_self" class="name-of-the-user header-content header-content-a" style="display: none; text-decoration: none; color: #e6e6e6; font-size: 35px; margin-top: -6px; margin-left: -60px; cursor: default; "></a>
+            </div>
+            <div class="user-info d-flex justify-content-center">
+            <div class="position-relative me-2 d-flex flex-column align-items-center view-P">
+            <i class="fa-solid fa-cart-shopping me-4 my-2 cart-icon header-content-cart" style="font-size: 30px; cursor: pointer; color: white;"></i><span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger my-3 countt header-content-badge" style="font-weight: bold; left: 60%; transform: translateX(-50%);"></span>
+            </div>
+            <a href="index (2).html" target="_self"  style="text-decoration: none; color: #e6e6e6; font-size: 25px; font-weight: bold;" class="logout-btn header-content-btn">Logout</a> 
+           </div>
+        </div>
+    </div>
+    </header>
+
+
+
+    
+    <div class="container pt-3 me-5 products-container"> <!-- thats the div that carries all the products will be written here in this div from the java code -->
+      <div class="row justify-content-center products" >
+          <!-- Products will be injected here -->
+      </div>
+  </div>
+
+  <div class="spacer" style="height: 100px;"></div> <!-- Add space between the total price div and the products div so they dont overlap -->
+
+
+   <div class="container-fluid fixed-bottom bg-light p-3 total-price" >
+     <h5 class="text-start mx-5 h55" style="font-weight: bold;"></h5>
+   </div>
+
+
+    <script src="Bootstrap/bootstrap.bundle.js"></script>
+    <script src="java/java product-cart.js"></script>
+    <script src="java/header.js"></script>
+</body> 

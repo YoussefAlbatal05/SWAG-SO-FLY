@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+        
+.product-card {
+    width: 80% !important; 
+    height: auto !important; 
+}
+
+
+@media (max-width : 1000px) {
+
+    header{
+        height: 140px ;
+    }
+
+
+    .header-content-h2{
+       margin-left: -95px !important;
+       margin-top: 25px !important;
+       font-size: 45px !important;
+       white-space: nowrap;
+    }
+
+    .header-content-a{
+        margin-top: 20px !important;
+        margin-left: 38px !important;
+        font-size: 45px !important;
+        white-space: nowrap;
+    }
+
+    .header-content-cart{
+        left: 50%;
+        top: 50%;
+        transform: translate( 70% , 60% );
+        font-size: 45px !important;
+        
+    }
+
+    .header-content-btn{
+         left: 70% !important;
+         top: 50% !important;
+         transform: translate( 30% , 40% ) !important;
+         font-size: 40px !important;
+    }
+
+    .header-content-badge{
+        left: 70% !important;
+        top: 20% !important;
+        transform: translate( 55% , 3% ) !important;
+        font-size: 17px !important;
+        padding-bottom: 7px !important;
+    }
+
+
+
+    .View-Products-Parent-2{
+        width: 250px !important;
+    }
+
+    .product-item{
+        width: 230px !important;
+        height: 40px !important;
+        font-size: 18px !important ;
+        padding-top: 6px;
+        font-weight: bold;
+
+    }
+
+
+    .products-container {
+        margin-right: 125px !important; 
+    }
+        
+    .product-card {
+        width: 100% !important; 
+        height: auto !important; 
+
+    }
+
+
+    .products {
+        justify-content: flex-start !important; 
+    }
+
+    .itemTitle{
+        font-size: 35px;
+        padding-top: 20px !important;
+    }
+
+    .itemCategory{
+        font-size: 28px;
+    }
+
+    .itemPrice{
+        font-size: 30px;
+    }
+
+    .itemIcon{
+        font-size: 35px !important;
+        margin-top: -45px !important;
+    }
+
+    .View-Products-son {
+        max-height: 400px; 
+        overflow-y: auto;  
+    }
+    
+    .view-products-btn {
+        background-color: #616162 !important;
+        color: #f7f7f7;
+        padding: 2px 46px 9px 50px !important; /* Set equal padding to avoid overlap */
+        border-top: 1px solid #333;
+        text-align: center;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        font-weight: bold;
+        font-size: 22px !important;
+        width: 100%; /* Make sure the button takes up the full width of its parent */
+        box-sizing: border-box; /* Ensures padding and borders are included in the element's width */
+    }
+    
+    .add-to-cart-btn{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .card-img-top{
+        height: 360px !important;
+    }
+
+    .select-container {  /* this is to make the select options vertical cuz this is logically right not when its next to each other*/
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        gap: 10px; /* Space between elements */
+    }
+
+    .select-option-2,
+    .select-option-3 {
+        width: 100% !important; /* Set width to 100% */
+        height: 55px !important;
+    }
+
+    .spacer{
+        height: 3px !important;
+    }
+}   
+
+.add-to-cart-btn {
+    background-color: #868A96;
+    border-color: #868A96;
+    transition: background-color 0.5s ease, color 0.6s ease; /* Smooth transition for background and text color */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #555  !important; /* Any color you want */
+    color: white  !important;
+}

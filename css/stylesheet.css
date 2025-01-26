@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 75px;
+}
+
+.logout-btn{
+   top: 50%;
+   transform: translateY(-8%);
+}
+
+.sign-background-color{
+    background-color: rgb(195, 195, 195);
+    width: 60%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+body{
+    font-family: "oswald";
+}
+
+
+input[type="email"]:focus, input[type="password"]:focus {  /* in input if you want to edit the focus you can only edit this way  */
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+
+
+
+ .my-3 {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+
+.user-info {
+    display: flex;
+    align-items: baseline;
+}
+
+.name-of-the-user {
+    margin-right: 15px;
+} 
+
+
+.product-item {
+    background-color: #f0f0f0; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border-radius: 2px; 
+    width: 180px;
+    padding-left: 10px;
+    height: 35px;
+    padding-top: 5px;
+}
+

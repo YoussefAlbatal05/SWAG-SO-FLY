@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+   <link rel="stylesheet" href="css/stylesheet.css">
+   <link rel="stylesheet" href="css/all.css">
+   <link rel="stylesheet" href="css/homeProducts.css">
+   <title>Home</title>
+
+
+</head>
+<body>
+    <header> <!-- header of the website -->
+        <div class="container">
+            <div class="d-flex justify-content-between pt-3">   
+                <h2 class="mx-2 header-content header-content-h2" style=" font-size: 35px; margin-top: -5px; color: #e6e6e6;">Online Shopping</h2>
+                <div>
+                <a href="index (2).html" target="_self"><button type="button" class="btn btn-dark mx-2 login-btn header-content" style="margin-left: auto; color: #e6e6e6;">Login</button></a> 
+                <a href="index (3).html" target="_self"><button type="button" class="btn btn-dark mx-2 register-btn header-content" style="margin-left: auto; color: #e6e6e6;">Register</button></a> 
+                <a href="#" target="_self" class="name-of-the-user header-content header-content-a" style="display: none; text-decoration: none; color: #e6e6e6; font-size: 35px; margin-top: -6px; margin-left: -60px; cursor: default;"></a>
+                </div>
+                <div class="user-info d-flex justify-content-center">
+                <div class="position-relative me-2 d-flex flex-column align-items-center view-P">
+                <i class="fa-solid fa-cart-shopping me-4 my-2 cart-icon header-content-cart" style="font-size: 30px; cursor: pointer; color: white;"></i><span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger my-3 countt header-content-badge" style="font-weight: bold; left: 60%; transform: translateX(-50%);"></span>
+                </div>
+                <a href="index (2).html" target="_self"  style="text-decoration: none; color: #e6e6e6; font-size: 25px; font-weight: bold;" class="logout-btn header-content-btn">Logout</a> 
+               </div>
+            </div>
+        </div>
+        </header>
+
+
+   
+        <div class="View-Products-Parent View-Products-Parent-2" style="float: right; width: 200px; background-color: #1d1d1d; z-index: 40; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; position: absolute; right: 80px; display: none;">
+            <div class="View-Products-son View-Products-son-2 mx-2" style="position: relative; padding-bottom: 20px;">
+                <!-- Products will be injected here dynamically -->
+            </div>
+            <a href="#" target="_self" class="view-products-btn" style="text-decoration: none; color: rgb(247, 247, 247); font-weight: bold; text-align: center; padding: 10px 44px; background-color: #444; border-top: 1px solid #333; border-radius: 0 0 6px 6px;">
+                View all products
+            </a>
+        </div>
+        
+
+
+        
+      <div class="container select-container" style="display: flex; justify-content: space-evenly; gap: 20px; margin-top: 20px;">
+        <select class="form-select select-option select-option-2" style="width: 50%; border-width: 2px; border-color: gray;">
+            <option>Search By Name</option>
+            <option>Search By Category</option>
+        </select>
+        <input type="search" class="form-control product-search select-option-3" placeholder="Search" style="width: 50%; border-width: 2px; border-color: gray;">
+    </div>
+
+
+
+
+
+    
+    <div class="container pt-3 me-5 products-container"> <!-- thats the div that carries all the products will be written here in this div from the java code -->
+        <div class="row justify-content-center products" >
+            <!-- Products will be injected here -->
+        </div>
+    </div>
+
+
+    <div class="spacer" style="height: 100px;"></div>
+
+     
+    </div>
+  </div>
+
+    <script src="Bootstrap/bootstrap.bundle.js"></script>
+    <script src="java/java home.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
